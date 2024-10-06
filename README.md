@@ -12,6 +12,9 @@ This repository contains the Docker Compose artifacts needed to deploy the follo
 
 The WSO2 MI 4.2.0 Docker image will be built automatically when deploying the containers. If the image already exists in your local Docker registry, it won't be rebuilt. This repository includes all the necessary additional JAR files to connect with the Kafka server via the WSO2 MI server, and it contains a sample Carbon application with both a message publisher and a consumer.
 
+## Deployment Diagram
+![kafka_diagram](https://github.com/user-attachments/assets/b8a6376c-bb57-485f-a6ec-746065eba836)
+
 ## Setup Instructions
 
 ### 1. Clone the Git Repository

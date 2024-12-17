@@ -13,7 +13,8 @@ This repository contains the Docker Compose artifacts needed to deploy the follo
 The WSO2 MI 4.2.0 Docker image will be built automatically when deploying the containers. If the image already exists in your local Docker registry, it won't be rebuilt. This repository includes all the necessary additional JAR files to connect with the Kafka server via the WSO2 MI server, and it contains a sample Carbon application with both a message publisher and a consumer.
 
 ## Deployment Diagram
-![kafka_diagram](https://github.com/user-attachments/assets/b8a6376c-bb57-485f-a6ec-746065eba836)
+![kafka_diagram](https://github.com/user-attachments/assets/75875fbc-6478-47b2-b8ad-661d9454f003)
+
 
 ## Setup Instructions
 
@@ -109,7 +110,8 @@ docker-compose exec kafka bash
 
 Create a topic named `sample`.
 
-<img width="1109" alt="image" src="https://github.com/user-attachments/assets/318550ed-9347-4b66-a342-535cb8c2d12c">
+![image](https://github.com/user-attachments/assets/928a120b-a934-42b1-91f9-adfe75d29847)
+
 
 
 ### Register a Schema
@@ -135,6 +137,8 @@ Register a schema named `sample` with the following content:
 }
 ```
 You can register this schema via the `Kafka` UI:
+
+![image](https://github.com/user-attachments/assets/d488f98b-eab6-4e70-8de9-95b46846e2be)
 
 
 You can register this schema via a `curl` command:

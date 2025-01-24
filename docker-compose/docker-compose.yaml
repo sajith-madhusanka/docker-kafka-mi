@@ -38,7 +38,7 @@ services:
 
   wso2mi:
     build:
-      context: ./wso2MI  # Path to the directory containing the Dockerfile
+      context: ../wso2MI  # Path to the directory containing the Dockerfile
     environment:
       - JAVA_OPTS=${JAVA_OPTS}
     ports:

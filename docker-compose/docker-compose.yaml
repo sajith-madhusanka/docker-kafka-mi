@@ -48,7 +48,7 @@ services:
       - "9164:9164"
     volumes:
       - ../conf/MI/deployment.toml:/home/wso2carbon/wso2-config-volume/conf/deployment.toml
-      - ../conf/MI/log4j2.properties:/home/wso2carbon/wso2-config-volume/conf/og4j2.properties
+      - ../conf/MI/log4j2.properties:/home/wso2carbon/wso2-config-volume/conf/log4j2.properties
       - ../resources/MI/carbonapps:/home/wso2carbon/wso2mi-4.2.0/repository/deployment/server/carbonapps/
       - ../resources/MI/dropins:/home/wso2carbon/wso2mi-4.2.0/dropins
       - ../resources/MI/lib:/home/wso2carbon/wso2mi-4.2.0/lib
